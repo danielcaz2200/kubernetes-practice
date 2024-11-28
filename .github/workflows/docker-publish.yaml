@@ -13,6 +13,7 @@ jobs:
       attestations: write
       id-token: write
 
+    # All steps to build, push image to Dockerhub
     steps: 
       - name: Checkout repo
         uses: actions/checkout@v4
